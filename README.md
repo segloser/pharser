@@ -1,7 +1,7 @@
 # pharser
-Just a test to implement an idea of one of my supervisors - Phishing detection through hash comparison
+Just a test to implement an idea of the Team Leader - Phishing detection through hash comparison
 
-SOME FILES HAVE BEEN OMITTED ON PURPOSE SINCE THEY CONTAIN CLIENT INFORMATION. THIS VERSION WILL NOT PROPERLY WORK
+SOME FILES HAVE BEEN OMITTED ON PURPOSE SINCE THEY CONTAIN CLIENT INFORMATION. THIS VERSION WILL NOT PROPERLY WORK if you do not have the installation script.
 
 =============================
 The purpose of this tool is to extract emails from an emails manager or client, parse any URL included in the
