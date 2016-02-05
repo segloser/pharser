@@ -1,6 +1,8 @@
 # pharser
 Just a test to implement an idea of one of my supervisors - Phishing detection through hash comparison
 
+SOME FILES HAVE BEEN OMITTED ON PURPOSE SINCE THEY CONTAIN CLIENT INFORMATION. THIS VERSION WILL NOT PROPERLY WORK
+
 =============================
 The purpose of this tool is to extract emails from an emails manager or client, parse any URL included in the
 email, download the destination page of that URL and hash it according to ssdeep.
