@@ -1,0 +1,175 @@
+Welcome to the Docker Weekly, a newsletter with the latest content on Docke=
+r and the agenda for the upcoming weeks.
+=C2=A0
+ <http://email.docker.com/wJpLI6TFK0000d6A00O3w0V>Celebrate the Docker proj=
+ect's 3rd birthday!
+
+
+ <http://email.docker.com/wJpLI6TFK0000d6A00O3w0V>This year, to celebrate t=
+he=C2=A0Docker Project=E2=80=99s 3rd birthday <http://email.docker.com/wJpL=
+I6TFK0000d6A00O3w0V>, the Docker community is joining forces with a number =
+of partners in the broader tech and open-source community to host a series =
+of events focused on providing=C2=A0 Docker training to beginners during th=
+e week of March 21-26.
+
+Many meetup attendees are new to Docker and we want to make sure=C2=A0that =
+we welcome them warmly into the Docker community. To=C2=A0ensure that these=
+ events are inclusive for everyone attending including underrepresented min=
+orities, we=E2=80=99re happy to announce that we have teamed up with awesom=
+e partners who=E2=80=99re actively=C2=A0contributing to organizing many Doc=
+ker Birthday celebrations around the world!
+
+
+Read more in this blog post <http://email.docker.com/wJpLI6TFK0000d6A00O3w0=
+V>.
+
+=C2=A0
+Containers as a Service (CaaS) as your new platform for application develop=
+ment and operations
+
+The developer begins with Docker because it is easy to use and makes them f=
+aster. Then by the very nature of the Docker technology, they were able to =
+easily share their software and dependencies with others while eliminating =
+the age old =E2=80=9Cworked on my machine=E2=80=9D issue. No more conflicts=
+ between applications or different environments. Indirectly Docker started =
+to bring developers and IT ops closer together.
+
+With Docker, developers can own what goes on inside the container and how t=
+he containers behave together as an application. Meanwhile, IT ops teams ca=
+n focus on the stuff it takes to run the application as designed, to secure=
+, manage and scale.
+
+To deliver the consistent experience for developers and IT ops, teams began=
+ using Docker for Containers as a Service (CaaS).=C2=A0Read more in this bl=
+og post <http://email.docker.com/b0000TJKVFx0Ld6B030Op6I>.
+
+=C2=A0
+
+ <http://email.docker.com/q6LF0T0pKC0I6V03J0dy00O>
+Join us at for DockerCon 2016
+
+DockerCon 2016 in Seattle on June 19-21 <http://email.docker.com/q6LF0T0pKC=
+0I6V03J0dy00O>=C2=A0is the community and industry event for makers and oper=
+ators of next generation distributed apps built with containers.
+Register now for early bird pricing <http://email.docker.com/q6LF0T0pKC0I6V=
+03J0dy00O>!=C2=A0And don't forget to submit speaking proposals <http://emai=
+l.docker.com/q6LF0T0pKC0I6V03J0dy00O>=C2=A0for Docker 2016 by March 18th!
+=C2=A0
+Need to manage Docker on-prem?=C2=A0
+
+Docker Datacenter gives you access to the tools you need to manage your Doc=
+ker images, containers, and applications within your firewall.=C2=A0Get a t=
+rial of Docker Datacenter <http://email.docker.com/p0600F06DL0O0zIJTK0dpV3>=
+!
+=20
+
+=C2=A0
+Featured articles
+
+Docker Online Meetup #31: Unikernels <http://email.docker.com/HF0030O0IdEpV=
+L60K6J00AT>=C2=A0with=C2=A0Amir Chaudhry <http://email.docker.com/WF06FIJ6K=
+0B3LTd00O0pV00>,=C2=A0Richard Mortier <http://email.docker.com/z0Op3TK0006J=
+ICV6FdG0L00>=C2=A0and=C2=A0Martin Lucina <http://email.docker.com/wJpLI6TFK=
+0000d6H00O3D0V>
+
+Runc Containers on the Desktop <http://email.docker.com/b0000TJKWFR0Ld6W030=
+Op6I>=C2=A0by=C2=A0Jessie Frazelle <http://email.docker.com/wJpLI6TFK0000d6=
+J00O3F0V>
+
+Webinar Q&A: Docker Networking <http://email.docker.com/b0000TJKVFG0Ld6K030=
+Op6I> with Mike Coleman <http://email.docker.com/uHI000pJ6K0T0L03VdOFL60>
+
+Dockerizing a Ruby on Rails Application <http://email.docker.com/HF0030O0Id=
+XpWL60K6J00ST>=C2=A0by=C2=A0Nick Janetakis <http://email.docker.com/z0Op3TK=
+0006JIJV6FdN0L00>
+
+How to run a Windows Docker Engine in Azure <http://email.docker.com/uTI000=
+pJ6K0T0Y03WdOFL60>=C2=A0by=C2=A0Stefan Scherer <http://email.docker.com/tTL=
+d3O0VFp0KP00IJ60006L>
+
+Workflows: using Docker Machine and Docker Compose together in development =
+<http://email.docker.com/Q0VL0pJ0FM3KO0I6T00Q6d0>=C2=A0by=C2=A0Alexander Ze=
+itler <http://email.docker.com/a0300K06OF0p00RLNJIV6dT>
+
+
+=C2=A0
+
+Articles, blog posts, videos and slides
+
+Orchestrate Docker containers with Tutum <http://email.docker.com/x0F0000W3=
+U60KIJ0ZT6dpLO>=C2=A0by=C2=A0Hanzel Jesheen <http://email.docker.com/q6LF0T=
+0pKT0I6V03J0dP00O>
+
+Immutable Delivery <http://email.docker.com/o03VI000W006dF06pLJTOK0>=C2=A0b=
+y=C2=A0John Willis <http://email.docker.com/WF06VIJ6K0R3LTd00O0pV00>
+
+Three New Official Repos Join the Docker Library <http://email.docker.com/b=
+0000TJKVFS0Ld6W030Op6I>=C2=A0by=C2=A0Mario Ponticello <http://email.docker.=
+com/m000IX3060OT6KdpJVT0FL0>
+
+The Pine A64 is about to become the cheapest ARM 64-bit platform to run Doc=
+ker <http://email.docker.com/G6J0LW30p16WF0TK0000dIO>=C2=A0by=C2=A0Dieter R=
+euter <http://email.docker.com/O0V0d6OL0300IFKV0Z0T6pJ>=C2=A0and=C2=A0Govin=
+da Fichtner <http://email.docker.com/i0VF0IJ6dWK00T000pO3L06>
+
+
+Feb 3rd: Docker Meetup at Coolworking <http://email.docker.com/n0Fd0el03OIK=
+0LJ0p600TY6>=C2=A0(Bordeaux, France)
+
+Feb 3rd: Docker Meetup at SpeedLedger <http://email.docker.com/f00YT0K0pf00=
+6J3OFILmd06> (G=C3=B6teborg, Sweden)
+
+Feb 5th:=C2=A0Docker Talk at Sabeo Technologies <http://email.docker.com/n0=
+Fd0gn03OIK0LJ0p600TY6>=C2=A0(Dublin, Ireland)
+
+Feb 5th: Docker Meetup at Brno University of Technology <http://email.docke=
+r.com/o03hI00oY006dF06pLJTOK0> (Brno, Czech Republic)
+
+Feb 5th: Docker Talk at GDG Sardegna <http://email.docker.com/ipYF0IJ6diK00=
+T000pO3L06> (Cagliari, Italy)
+
+Feb 5th: Docker Meetup at Cafe Breton <http://email.docker.com/G6J0LY30pq6j=
+F0TK0000dIO> (La Rioja, Spain)
+
+Feb 8th: Docker Meetup at Google <http://email.docker.com/tTLd3O0YFp0Kr00IJ=
+60006k> (Tel Aviv-Yafo, Israel)
+
+Feb 9th: Docker Meetup in Budapest <http://email.docker.com/hKd6l6J00F000OT=
+YI030Lsp> (Budapest, Hungary)
+
+Feb 9th:=C2=A0Docker Meetup at WooRank <http://email.docker.com/JJ3KFO0m6L0=
+ItYp0Td00060>=C2=A0(Brussels, Belgium)
+
+Feb 10th: Docker Meetup at Sala Grande <http://email.docker.com/m000Iu3060O=
+T6KdpJYn0FL0> (Barcelona, Spain)
+
+Feb 11th: Docker Meetup at Futurice Tampere <http://email.docker.com/wJpLI6=
+TFK0000d6v00O3o0Y> (Tampere, Finald)
+
+"http://email.docker.com/NJ00vFOT0006dVL0zI60p3K" style="color: #336699;font-weight: normal;text-decoration: underline;" target="_blank"
+></a><div class="mktEditable" id="miniheaderright" ><p><a href="https://goto.docker.com/index.php/email/emailWebview?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57e4uXqS3lMI%2F0ER3fOvrPUfGjI4DSMFrI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D">View it in your browser.</a></p>
+</div>
+</div>
+</td>
+</tr>
+"http://email.docker.com/Q0VL0pJ0FM3KO0I6T00Q6d0"
+>Workflows: using Docker Machine and Docker Compose together in development</a>&nbsp;by&nbsp;<a href=
+"http://email.docker.com/a0300K06OF0p00RLNJIV6dT"
+>Alexander Zeitler</a></p>
+<hr style="color: #505050; font-family: Arial; font-size: 14px; font-weight: normal; line-height: 21px;" />
+<p>&nbsp;</p>
+<p><strong>Articles, blog posts, videos and slides</strong></p>
+<p><a href=
+"http://email.docker.com/jOSJ063KF006p0dILTO0V00" target="_blank"
+>Orchestrate Docker containers with Tutum</a>&nbsp;by&nbsp;<a href=
+"http://email.docker.com/q6LF0T0pKT0I6V03J0dP00O"
+>Introduction to Docker</a>&nbsp;(Stockholm, Sweden)</p>
+<p class="p2">Feb 22nd - Feb 23rd:&nbsp;<a href=
+"http://email.docker.com/b0000TJKXFV0Ld61030Op6I"
+>Introduction to Docker</a>&nbsp;(Madrid, Spain)</p>
+<p class="p2">Feb 25th - Feb 26th:&nbsp;<a href=
+"http://email.docker.com/NJ00WFOT0006dXL02I60p3K"
+><span class="s4">Docker Administration and Operations</span></a>&nbsp;(Cologne, Germany)</p>
+<p class="p2">Feb 29th - Mar 1st: <a href=
+"http://email.docker.com/lXJO3000K6pd0L3T60I0X0F"
+>Introduction to Docker</a> (Aix en Provence, France)</p>
