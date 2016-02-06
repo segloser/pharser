@@ -1,3 +1,89 @@
+From - Thu Feb  4 13:05:17 2016
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-path: <929-FJL-178.0.1185.0.0.2439.7.1623731-5@em-sj-77.mktomail.com>
+Envelope-to: info@segloser.com
+Delivery-date: Wed, 03 Feb 2016 19:27:10 +0100
+Received: from em-sj-80.mktomail.com ([199.15.215.80]:60071)
+	by srv03.aloojamiento.com with esmtps (TLSv1:DHE-RSA-AES256-SHA:256)
+	(Exim 4.86)
+	(envelope-from <929-FJL-178.0.1185.0.0.2439.7.1623731-5@em-sj-77.mktomail.com>)
+	id 1aR28w-003pKD-Fl
+	for info@segloser.com; Wed, 03 Feb 2016 19:27:10 +0100
+X-MSFBL: aW5mb0BzZWdsb3Nlci5jb21AZHZwLTE5OS0xNS0yMTUtODBAYmctc2otMDFAOTI5
+	LUZKTC0xNzg6MTAzMToxMTg1OjY3MzowOjI0Mzk6NzoxNjIzNzMxLTU=
+Received: from [10.0.15.43] ([10.0.15.43:56380] helo=sjmas03.marketo.org)
+	by sjmta07.marketo.org (envelope-from <docker@info.docker.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id C5/C3-07940-54642B65; Wed, 03 Feb 2016 12:26:13 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1454523973;
+	s=m1; d=info.docker.com; i=@info.docker.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=+M8HB/+w/m2LMZip3nbhlsfmN5dP4nLnYD9hsJSJdFM=;
+	b=IX7PqvbV2b1Mggx6UzC71TcsUnekqk3KZz28c8HGL0T8ufk9Qk9b3hp9p2q4+kob
+	5GTnr+9xWO6gTw6f316/Imp0iTRaQxXeKMdtDViRcnWoV3DSEFhz88D7ORJYpi2woLD
+	5p5m7WdS7HiMh/mYN8Sb0m46HwymccHlrCTg3eVY=
+Date: Wed, 3 Feb 2016 12:26:13 -0600 (CST)
+From: Docker Team <docker@info.docker.com>
+Reply-To: hackers@docker.com
+To: info@segloser.com
+Message-ID: <670295648.1843564464.1454523973183.JavaMail.root@sjmas03.marketo.org>
+Subject: Docker Weekly #121: February 3, 2016
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1843564461_439706059.1454523973183"
+X-Binding: bg-sj-01
+X-MarketoID: 929-FJL-178:1031:1185:673:0:2439:7:1623731-5
+X-MktArchive: false
+List-Unsubscribe: <mailto:PFWDOWS7GJEE4MSZOQ4G2VRXKVUXE3BSHF3T2PI.1185.2439.7@unsub-sj.mktomail.com>
+X-Mailfrom: 929-FJL-178.0.1185.0.0.2439.7.1623731-5@em-sj-77.mktomail.com
+X-MktMailDKIM: true
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "srv03.aloojamiento.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Subscribe to Docker Weekly <http://email.docker.com/I060uFp0K6dyIT3O0V0JL00>
+    View it in your browser. <[[https://goto.docker.com/index.php/email/emailWebview?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57e4uXqS3lMI%2F0ER3fOvrPUfGjI4DSMFrI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D]]>
+    Welcome to the Docker Weekly, a newsletter with the latest content on Docker
+    and the agenda for the upcoming weeks.   <http://email.docker.com/wJpLI6TFK0000d6A00O3w0V>Celebrate
+    the Docker project's 3rd birthday! [...] 
+ 
+ Content analysis details:   (0.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [199.15.215.80 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [199.15.215.80 listed in wl.mailspike.net]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.4 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  1.1 AWL                    AWL: Adjusted score from AWL reputation of From: address
+X-Spam-Flag: NO
+
+------=_Part_1843564461_439706059.1454523973183
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Subscribe to Docker Weekly <http://email.docker.com/I060uFp0K6dyIT3O0V0JL00=
+>
+View it in your browser. <[[https://goto.docker.com/index.php/email/emailWe=
+bview?mkt_tok=3D3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57e4uXqS3lMI%2F0ER3fOvrPUfGj=
+I4DSMFrI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D]]>
 Welcome to the Docker Weekly, a newsletter with the latest content on Docke=
 r and the agenda for the upcoming weeks.
 =C2=A0
