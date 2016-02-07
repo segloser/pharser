@@ -624,6 +624,13 @@ def lines_in_file(file):
 	f.close()
 	return lines
 
+#for b_line in b_lines:
+#        key_ba = b_line
+#        key_bb = hashing(extract('./wgot/bad/%s'%b_line[:-1])) # [:-1} is included to e$
+#        dict_bkey_hash[key_bb] = (key_ba)
+def file_from_bhash(key_bb):
+	return dict_bkey_hash[key_bb] 
+
 dict = {}
 
 for line in lines_in_file("good_urls.txt"):
@@ -658,7 +665,7 @@ dict_bkey_hash = {}
 for b_line in b_lines:
 	key_ba = b_line
 	key_bb = hashing(extract('./wgot/bad/%s'%b_line[:-1])) # [:-1} is included to erase the final \n
-	dict_bkey_hash[key_ba] = (key_bb)
+	dict_bkey_hash[key_bb] = (key_ba)
         bch.write(hashing(extract('./wgot/bad/%s'%b_line[:-1])) + '\n')
 bch.close()
 
@@ -677,17 +684,17 @@ for h_b_line in h_b_lines:
 		a = h_b_line[:-1]
 		b = compare(h_b_line, h_g_line)
 		bs.append(b)
-		dict[a] = (h_g_line, bs)
+		dict[a] = (file_from_bhash(a), bs)
+
 for key in dict:
        	for value in dict[key][1][:]:
        		if value != 0:
-               		print "This is a real match: " + key
-                       	print "Key: " + key
-                       	print "Values: " + str(dict[key])
-			print "Bad Hash: " + str(h_b_line)
-			print "Good Hash: " + str (h_g_line)
+               		print "Match Found"
+                       	print "Bad Hash: " + key
+                       	print "Similarity Coeficient: " + str(value)
+			print "Bad Filename: " + str(file_from_bhash(key))
 			rf = open("matches.txt", 'a')
-			rf.write("==================================\nTHE FOLLOWING MATCH HAS BEEN FOUND\n==================================\n" + "Key: " + str(key) + "\n" + "Value: " + str(dict[key]) + "\n" + "Bad Hash: " + str(h_b_line) + "\n" + "Good Hash: " + str (h_g_line) + "=====================================================================================\n" + "\n\n\n")
+			rf.write("==================================\nTHE FOLLOWING MATCH HAS BEEN FOUND\n==================================\n" + "Bad Hash: " + str(key) + "\n" + "Similarity Coeficient: " + str(value) + "\n" + "Bad Filename: " + str(file_from_bhash(key)) + "=====================================================================================\n" + "\n\n\n")
 			rf.close()
 
 d_file = open("dict_hahes_compared.txt", "w")
@@ -701,4 +708,9 @@ d_file_b.write(str(dict_bkey_hash))
 
 
 print 	"""The resultant dictionaries with the ssdeep hashes of the 
-	suspicious files are stored in some txt files named <dict_*.txt>"""
+	suspicious files are stored in some txt files named <dict_*.txt>\n"""
+
+print """ Take a look at the generated txt file <matches.txt> 
+	to evaluate the outcome """
+
+print "\n Do not forget that all generated files are in /root/pharser/joint/"
