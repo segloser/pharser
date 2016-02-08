@@ -1,7 +1,11 @@
 # pharser
 Just a test to implement an idea of the Team Leader - Phishing detection through hash comparison
 
-SOME FILES HAVE BEEN OMITTED ON PURPOSE SINCE THEY CONTAIN CLIENT INFORMATION. THIS VERSION WILL NOT PROPERLY WORK if you do not have the installation script.
+The installation and autotest will take place just runing <sh pharser_autotest_installer_with_dummy.sh> as root in the /root/ directory in a Kali Linux 64 bits version 2016.1.
+
+Other tests have been conducted, but Kali Linux has proved to be the most reliable platform to evaluate this script.
+
+Dummy URLs have been placed as malicious for testing purposes. Please, edit the installation script and modify it according to your needs. We recommend to use login pages.
 
 =============================
 The purpose of this tool is to extract emails from an emails manager or client, parse any URL included in the
