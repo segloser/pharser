@@ -9,7 +9,7 @@ Dummy URLs have been placed as malicious for testing purposes. Please, edit the 
 
 =============================
 The purpose of this tool is to extract emails from an emails manager or client, parse any URL included in the
-email, download the destination page of that URL and hash it according to ssdeep.
+email, download the destination page of that URL and hash it with ssdeep.
 
 After that, using a simple approach, since this is just a draft, nor for production, a white-list of 
 URLs are also downloaded and hashed with ssdeep.
@@ -32,13 +32,13 @@ After that, our white URLs are also downloaded and hashed.
 
 The hashes are compared. When a match takes place, the hashes are stored in a TXT file named <matches.txt>.
 
-Simultaneously, a number of files are also created in the main path. Most of them are used as a middle step
+Simultaneously, a number of files are also created in the /root/pharser/joint/ path. Most of them are used as a middle step
 for subsequent processes. Others are useful information stored for a more serious development of this draft.
 
 =================
 HOW TO USE IT
 =================
-A bash scritp has been written to create the directory arquitecture needed for testing this tool (since it 
+A bash scritp already mentioned below has been written to create the directory arquitecture needed for testing this tool (since it 
 is specific and it will not work otherwise). The bash script also download the necessary files in 
 the correct place.
 
