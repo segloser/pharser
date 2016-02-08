@@ -1,0 +1,9 @@
+Obviously, a lot of work is still pending.
+
+To name a few tasks:
+- A better regex
+- Base64 decoding
+- JavaScript deobfuscation
+- Redirection anlaysis
+- ...
+- Re-write the entire tool from a machine learning perspective
